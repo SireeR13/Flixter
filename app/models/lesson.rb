@@ -1,4 +1,4 @@
-class Section < ApplicationRecord
-  belongs_to :course
-  has_many :lessons
+class Lesson < ApplicationRecord
+  belongs_to :section
+  mount_uploader :video, VideoUploader
 end
