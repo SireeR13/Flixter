@@ -88,3 +88,5 @@ gem 'devise'
 gem 'jquery-ui-rails'
 
 gem "font-awesome-rails"
+
+gem 'stripe'
