@@ -75,12 +75,12 @@ gem 'simple_form'
 
 
 gem 'carrierwave', '~> 1.0'
+gem 'mini_magick'
+gem 'carrierwave-aws'
 
 gem 'figaro'
 gem 'fog-aws'
 
-gem 'mini_magick'
-gem 'carrierwave-aws'
 
 gem 'ranked-model'
 gem 'devise'
